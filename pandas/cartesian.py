@@ -1,6 +1,6 @@
 # -*- encoding=utf-8 -*-
 
-def cartesian(row, col):
+def cartesian(row, col, operator=None):
     """
         Create a dataframe representing the cartesian product
         of `row` and `col`.
@@ -11,6 +11,10 @@ def cartesian(row, col):
         Returns a new dataframe with the cartesian.
     """
     df = pd.DataFrame()
-    for cidx, cval in col.iteritems():
-        df[cidx] = row * cval
+    if operator is None:
+        for cidx, cval in col.iteritems():
+            df[cidx] = row * cval
+    else:
+        for cidx, cval in col.iteritems():
+            df[cidx] = operator(row, cval)
     return df
