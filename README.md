@@ -11,6 +11,11 @@ These scripts are licensed under [CC-BY-SA 4.0 ![CC-BY-SA 4.0](https://i.creativ
 
 This repository contains some subdirectories which represent categories.
 
+###
+
+Utilities and script for use in combination with [numpy](http://www.numpy.org/).
+
+
 ### pandas
 
 Utilities and script for use in combination with the [pandas](https://pandas.pydata.org/) data analysis library.
