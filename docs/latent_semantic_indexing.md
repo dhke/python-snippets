@@ -23,5 +23,16 @@ Latent Semantic Indexing (LSI) natural language processing technique that is use
 | $`X`$ | An $`m \times n`$ matrix containing the cross-tabulation of all $`d_i`$s and $`t_j`$. |
 
 
+$`X`$ is thus of the form
+
+```math
+X = \begin{matrix}
+ x_{1,1} & \ldots & x_{i, n} \\
+ \vdots & & \vdots \\
+ x_{m,1} & \ldots & x_{m, n} \\
+\end{matrix}
+```
+
+
 LSI operates on a set of documents $`D`$ (with size $`m`$), expressed as individual document vectors $`d_i`$.
 
