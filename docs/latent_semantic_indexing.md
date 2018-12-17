@@ -26,11 +26,11 @@ Latent Semantic Indexing (LSI) natural language processing technique that is use
 $`X`$ is thus of the form
 
 ```math
-X = \begin{matrix}
+X = \left(\begin{matrix}
  x_{1,1} & \ldots & x_{i, n} \\
  \vdots & & \vdots \\
  x_{m,1} & \ldots & x_{m, n} \\
-\end{matrix}
+\end{matrix}\right)
 ```
 
 
