@@ -16,10 +16,10 @@ Latent Semantic Indexing (LSI) natural language processing technique that is use
 
 | Symbol | Description |
 | ------ | ------------| 
-| $`D`$ | an indexes family of size $`m`$ of documents. |
-| $`T`$ | an indexed family of size $`n`$ of terms. |
-| $`d_i`$ | a document vector, expressed a vector of size $`n`$ of term frequencies.  Each element of the vector indicates the (relative) frequency of the numbered term within the document at index $`i`$. |
-| $`t_j`$ | a term vector, expressed as a vector of size $`m`$ of document frequencies.  Each element of the vector indicates the (relative) frequency that the term at index $`j`$ appears within the indexed document. |
+| $`D`$ | an indexes family of size $`n`$ of documents. |
+| $`T`$ | an indexed family of size $`m`$ of terms. |
+| $`d_i`$ | a document vector, expressed a vector of size $`m`$ of term frequencies.  Each element of the vector indicates the (relative) frequency of the numbered term within the document at index $`i`$. |
+| $`t_j`$ | a term vector, expressed as a vector of size $`n`$ of document frequencies.  Each element of the vector indicates the (relative) frequency that the term at index $`j`$ appears within the indexed document. |
 | $`X`$ | An $`m \times n`$ matrix containing the cross-tabulation of all $`d_i`$s and $`t_j`$. |
 
 
@@ -30,7 +30,16 @@ X = \left(\begin{matrix}
  x_{1,1} & \ldots & x_{i, n} \\
  \vdots & & \vdots \\
  x_{m,1} & \ldots & x_{m, n} \\
+\end{matrix}\right) 
+= \left(\begin{matrix}
+	\rightarrow t_1 \rightarrow
+	\rightarrow t_m \rightarrow
 \end{matrix}\right)
+= \left(\begin{matrix}
+	\
+	d_1 
+\end{matrix}\right)
+
 ```
 
 
