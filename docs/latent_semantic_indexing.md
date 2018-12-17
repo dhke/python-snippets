@@ -16,6 +16,7 @@ Latent Semantic Indexing (LSI) natural language processing technique that is use
 a_i
 ```
 
+$`a^2+b^2=c^2`$
 
 
 ## Definitions
