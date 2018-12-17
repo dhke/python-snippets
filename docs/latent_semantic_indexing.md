@@ -14,5 +14,5 @@ Latent Semantic Indexing (LSI) natural language processing technique that is use
 
 ## Definitions
 
-LSI operates on a set of documents $D$ (with size $m$), expressed as individual document vectors d
+LSI operates on a set of documents $`D`$ (with size $`m`$), expressed as individual document vectors $`d_i`$.
 
