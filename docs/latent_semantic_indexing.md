@@ -12,6 +12,12 @@ Latent Semantic Indexing (LSI) natural language processing technique that is use
   The resulting approximation is optimal with regard to the the least-squares residual error.
 
 
+```math
+a_i
+```
+
+
+
 ## Definitions
 
 LSI operates on a set of documents $`D`$ (with size $`m`$), expressed as individual document vectors $`d_i`$.
