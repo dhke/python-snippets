@@ -34,9 +34,9 @@ X = \left(\begin{matrix}
 
 \bordermatrix{
 	&& \begin{array}{c} d_i \cr \downarrow \end{array} \cr
-	 & x_{1,1} & \ldots & x_{i, n} \\
-	 t_j \rightarrow & \vdots & & \vdots \\
-	 & x_{m,1} & \ldots & x_{m, n} \\
+	 & x_{1,1} & \ldots & x_{i, n} \cr
+	 t_j \rightarrow && \vdots & \cr
+	 & x_{m,1} & \ldots & x_{m, n} \cr
 }
 
 ```
