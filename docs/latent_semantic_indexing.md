@@ -33,10 +33,8 @@ X = \left(\begin{matrix}
 \end{matrix}\right) 
 
 \bordermatrix{
-	&& \begin{array}{c} d_i \cr \downarrow \end{array} \cr
-	 & x_{1,1} & \ldots & x_{i, n} \cr
-	 t_j \rightarrow && \vdots & \cr
-	 & x_{m,1} & \ldots & x_{m, n} \cr
+	& \begin{array}{c} d_i \cr \downarrow \end{array} & \cr
+	a & b & c \cr
 }
 
 ```
