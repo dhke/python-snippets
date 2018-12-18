@@ -31,14 +31,13 @@ X = \left(\begin{matrix}
  \vdots & & \vdots \\
  x_{m,1} & \ldots & x_{m, n} \\
 \end{matrix}\right) 
-= \left(\begin{matrix}
-	\rightarrow t_1 \rightarrow
-	\rightarrow t_m \rightarrow
-\end{matrix}\right)
-= \left(\begin{matrix}
-	\
-	d_1 
-\end{matrix}\right)
+
+\bordermatrix{
+	&& \begin{array}{c} d_i \cr \downarrow \end{array} \cr
+	 & x_{1,1} & \ldots & x_{i, n} \\
+	 t_j \rightarrow & \vdots & & \vdots \\
+	 & x_{m,1} & \ldots & x_{m, n} \\
+}
 
 ```
 
